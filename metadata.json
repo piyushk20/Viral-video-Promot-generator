@@ -1,0 +1,5 @@
+{
+  "name": "Viral Video Prompt Generator",
+  "description": "An intelligent web application that generates highly detailed, optimized prompts for AI video generation platforms like Sora 2. It analyzes trends and user input to craft prompts designed for maximum viral potential.",
+  "requestFramePermissions": []
+}
