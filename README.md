@@ -2,14 +2,33 @@
 
 An intelligent web application that generates highly detailed, optimized prompts for AI video generation platforms like Sora 2. It analyzes trends and user input to craft prompts designed for maximum viral potential.
 
-## ✨ Features
+## 📝 Project Requirements
 
+The goal is to build a multi-step web application that guides a user from a simple video idea to a complex, professional-grade prompt suitable for advanced AI video generators.
+
+### Core Features
 - **Guided Multi-Step Process:** A seamless workflow that takes you from a basic idea to a comprehensive, professional video prompt.
 - **Trend-Informed Suggestions:** Leverages live trend indicators to ensure your video concept is relevant and has high engagement potential.
 - **AI-Powered Creativity:** Generates multiple creative variations of your initial idea, each enhanced with proven viral elements.
 - **Technical Optimization:** Allows you to fine-tune crucial technical details like aspect ratio, motion intensity, color grading, and soundtrack mood.
 - **Expertly Structured Output:** Produces a final prompt formatted with a clear hierarchical structure, perfect for getting the best results from advanced AI video models.
-- **Sleek & Responsive UI:** A modern, user-friendly interface built with React and Tailwind CSS.
+- **Sleek & Responsive UI:** A modern, user-friendly interface that is both beautiful and functional.
+
+## 🛠️ Technology Stack
+
+-   **Frontend:** [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
+-   **AI:** [Google Gemini API](https://ai.google.dev/gemini-api) (`@google/genai`)
+-   **Dependencies:** Managed via ES Module import maps for a build-free development environment.
+
+## 🎯 Project Milestones
+
+1.  **Project Setup & Core Structure:** Establish the foundational architecture, including the React project setup, file structure, and state management for the multi-phase workflow.
+2.  **Phase 1 - Ideation UI:** Develop the initial user input form and the dynamic "Live Trend Indicators" panel.
+3.  **Gemini Integration for Variations:** Implement the backend logic to call the Gemini API, process the user's initial idea, and generate three creative variations.
+4.  **Phase 2 & 3 - Refinement & Technical UI:** Build the user interfaces for selecting a creative direction and fine-tuning the technical video specifications.
+5.  **Gemini Integration for Final Prompt:** Implement the logic to synthesize all user inputs into a single, detailed, and structured final prompt.
+6.  **Phase 4 - Output & Finalization:** Create the final output screen, including the "Copy to Clipboard" functionality and the option to restart the process.
+7.  **UI/UX Polish & Documentation:** Refine the user experience with animations, responsive design, and create comprehensive documentation (`README.md`, `TODO.md`).
 
 ## 🚀 How to Use
 
@@ -33,11 +52,6 @@ An intelligent web application that generates highly detailed, optimized prompts
     -   Paste it into your favorite AI video generation platform (e.g., Sora 2, RunwayML, Pika).
     -   Click "Create Another Masterpiece" to start over.
 
-## 🛠️ Tech Stack
-
--   **Frontend:** [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
--   **AI:** [Google Gemini API](https://ai.google.dev/gemini-api) (`@google/genai`)
-
 ## 📁 Project Structure
 
 ```
@@ -57,6 +71,8 @@ An intelligent web application that generates highly detailed, optimized prompts
 ├── index.html          # Main HTML entry point
 ├── index.tsx           # React root renderer
 ├── metadata.json       # Project metadata
+├── README.md           # This file
+├── TODO.md             # Implementation plan and progress tracker
 └── types.ts            # TypeScript type definitions
 ```
 
