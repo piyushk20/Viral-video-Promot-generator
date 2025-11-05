@@ -5,7 +5,7 @@
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
-
+https://viral-video-prompt-generator-1045386564331.us-west1.run.app
 View your app in AI Studio: https://ai.studio/apps/drive/1dsHzeaKrVDnSv8LTt7lvLrnmzobzdfYb
 
 ## Run Locally
